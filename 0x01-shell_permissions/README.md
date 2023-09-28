@@ -1,1 +1,1 @@
-0x01. Shell, permissions task done!
+0x01. Shell, permissions task
