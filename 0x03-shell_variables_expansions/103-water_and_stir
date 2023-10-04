@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=5;obase=bestchol;$((5#$(echo $WATER | tr 'water' '01234') + 5#$(echo $STIR | tr 'stir.' '01234')))" | bc
+echo "$WATER + $STIR" | bc | tr -d '\n' | tr '0123456789ABCDEF' 'behlnort'
